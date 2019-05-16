@@ -8,8 +8,8 @@ route = sys.argv[1]
 stopid = sys.argv[2]
 
 u = urllib.request.urlopen('http://ctabustracker.com/bustime/map/getStopPredictions.jsp?stop={}&route={}'.format(route, stopid))
-u
 data = u.read()
+# print(data )
 doc = XML(data)
 
 for pt in doc.findall('.//pt'):
