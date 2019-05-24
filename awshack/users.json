@@ -1,0 +1,14 @@
+[
+    {
+        "Path": "/",
+        "UserName": "master",
+        "UserId": "AIDAX72NBGOMSLRRGJKSS",
+        "Arn": "arn:aws:iam::549380502425:user/master",
+        "CreateDate": "2019-04-14 03:30:35+00:00",
+        "GroupList": [
+            "admin"
+        ],
+        "AttachedManagedPolicies": [],
+        "Tags": []
+    }
+]

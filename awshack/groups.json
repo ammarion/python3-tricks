@@ -1,0 +1,25 @@
+[
+    {
+        "Path": "/",
+        "GroupName": "admin",
+        "GroupId": "AGPAX72NBGOM7G5Y6V7XX",
+        "Arn": "arn:aws:iam::549380502425:group/admin",
+        "CreateDate": "2019-04-14 03:30:08+00:00",
+        "GroupPolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "AdministratorAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+            }
+        ]
+    },
+    {
+        "Path": "/managed-group/",
+        "GroupName": "NordApplicationUsers",
+        "GroupId": "AGPAX72NBGOMT4V52JQ64",
+        "Arn": "arn:aws:iam::549380502425:group/managed-group/NordApplicationUsers",
+        "CreateDate": "2019-04-23 21:10:33+00:00",
+        "GroupPolicyList": [],
+        "AttachedManagedPolicies": []
+    }
+]

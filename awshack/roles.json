@@ -1,0 +1,476 @@
+[
+    {
+        "Path": "/service-role/",
+        "RoleName": "AWSArtifactAccountSync",
+        "RoleId": "AROAX72NBGOMU3IM2YNDP",
+        "Arn": "arn:aws:iam::549380502425:role/service-role/AWSArtifactAccountSync",
+        "CreateDate": "2019-04-22 16:18:15+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "aws-artifact-account-sync.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "AWSArtifactAccountSync",
+                "PolicyArn": "arn:aws:iam::aws:policy/service-role/AWSArtifactAccountSync"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/aws-service-role/organizations.amazonaws.com/",
+        "RoleName": "AWSServiceRoleForOrganizations",
+        "RoleId": "AROAX72NBGOM72HMXS24Y",
+        "Arn": "arn:aws:iam::549380502425:role/aws-service-role/organizations.amazonaws.com/AWSServiceRoleForOrganizations",
+        "CreateDate": "2019-04-13 17:19:24+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "organizations.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "AWSOrganizationsServiceTrustPolicy",
+                "PolicyArn": "arn:aws:iam::aws:policy/aws-service-role/AWSOrganizationsServiceTrustPolicy"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/aws-service-role/support.amazonaws.com/",
+        "RoleName": "AWSServiceRoleForSupport",
+        "RoleId": "AROAX72NBGOMRUY5HIQRK",
+        "Arn": "arn:aws:iam::549380502425:role/aws-service-role/support.amazonaws.com/AWSServiceRoleForSupport",
+        "CreateDate": "2019-04-13 17:15:52+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "support.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "AWSSupportServiceRolePolicy",
+                "PolicyArn": "arn:aws:iam::aws:policy/aws-service-role/AWSSupportServiceRolePolicy"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/aws-service-role/trustedadvisor.amazonaws.com/",
+        "RoleName": "AWSServiceRoleForTrustedAdvisor",
+        "RoleId": "AROAX72NBGOMTTJMZARDB",
+        "Arn": "arn:aws:iam::549380502425:role/aws-service-role/trustedadvisor.amazonaws.com/AWSServiceRoleForTrustedAdvisor",
+        "CreateDate": "2019-04-13 17:15:52+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "trustedadvisor.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "AWSTrustedAdvisorServiceRolePolicy",
+                "PolicyArn": "arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorServiceRolePolicy"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/",
+        "RoleName": "cloudsploit-security-scanner-CloudSploitRole-WJMTLF6X2X19",
+        "RoleId": "AROAX72NBGOMZIUZT7XYB",
+        "Arn": "arn:aws:iam::549380502425:role/cloudsploit-security-scanner-CloudSploitRole-WJMTLF6X2X19",
+        "CreateDate": "2019-04-22 20:26:41+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2008-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::057012691312:root"
+                    },
+                    "Action": "sts:AssumeRole",
+                    "Condition": {
+                        "StringEquals": {
+                            "sts:ExternalId": "79d69ede-c093-4e5c-832f-a16a6b327e2b"
+                        }
+                    }
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "SecurityAudit",
+                "PolicyArn": "arn:aws:iam::aws:policy/SecurityAudit"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/",
+        "RoleName": "ec2-role",
+        "RoleId": "AROAX72NBGOM62JNP4XTB",
+        "Arn": "arn:aws:iam::549380502425:role/ec2-role",
+        "CreateDate": "2019-04-29 21:17:20+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [
+            {
+                "Path": "/",
+                "InstanceProfileName": "ec2-role",
+                "InstanceProfileId": "AIPAX72NBGOM4XCAF5JYP",
+                "Arn": "arn:aws:iam::549380502425:instance-profile/ec2-role",
+                "CreateDate": "2019-04-29 21:17:20+00:00",
+                "Roles": [
+                    {
+                        "Path": "/",
+                        "RoleName": "ec2-role",
+                        "RoleId": "AROAX72NBGOM62JNP4XTB",
+                        "Arn": "arn:aws:iam::549380502425:role/ec2-role",
+                        "CreateDate": "2019-04-29 21:17:20+00:00",
+                        "AssumeRolePolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Effect": "Allow",
+                                    "Principal": {
+                                        "Service": "ec2.amazonaws.com"
+                                    },
+                                    "Action": "sts:AssumeRole"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "AmazonS3FullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3FullAccess"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/managed-role/",
+        "RoleName": "Noop",
+        "RoleId": "AROAX72NBGOM7EPOCDOFA",
+        "Arn": "arn:aws:iam::549380502425:role/managed-role/Noop",
+        "CreateDate": "2019-04-23 21:10:34+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [
+            {
+                "Path": "/managed-profile/",
+                "InstanceProfileName": "Noop",
+                "InstanceProfileId": "AIPAX72NBGOM5ZBLJ3WBP",
+                "Arn": "arn:aws:iam::549380502425:instance-profile/managed-profile/Noop",
+                "CreateDate": "2019-04-23 21:10:52+00:00",
+                "Roles": [
+                    {
+                        "Path": "/managed-role/",
+                        "RoleName": "Noop",
+                        "RoleId": "AROAX72NBGOM7EPOCDOFA",
+                        "Arn": "arn:aws:iam::549380502425:role/managed-role/Noop",
+                        "CreateDate": "2019-04-23 21:10:34+00:00",
+                        "AssumeRolePolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Effect": "Allow",
+                                    "Principal": {
+                                        "Service": "ec2.amazonaws.com"
+                                    },
+                                    "Action": "sts:AssumeRole"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "RolePolicyList": [
+            {
+                "PolicyName": "Noop",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Action": "*",
+                            "Resource": "*",
+                            "Effect": "Deny"
+                        }
+                    ]
+                }
+            }
+        ],
+        "AttachedManagedPolicies": [],
+        "Tags": []
+    },
+    {
+        "Path": "/managed-role/",
+        "RoleName": "NordAcctAdmin",
+        "RoleId": "AROAX72NBGOMTDE6Z6ZFU",
+        "Arn": "arn:aws:iam::549380502425:role/managed-role/NordAcctAdmin",
+        "CreateDate": "2019-04-23 21:10:44+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::751810817100:root"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "AdministratorAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+            },
+            {
+                "PolicyName": "NordAcctAdmin",
+                "PolicyArn": "arn:aws:iam::549380502425:policy/managed-policy/NordAcctAdmin"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/managed-role/",
+        "RoleName": "NordAdmin",
+        "RoleId": "AROAX72NBGOM3ZO7MFG76",
+        "Arn": "arn:aws:iam::549380502425:role/managed-role/NordAdmin",
+        "CreateDate": "2019-04-23 21:10:33+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::751810817100:root"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "NordAdmin",
+                "PolicyArn": "arn:aws:iam::549380502425:policy/managed-policy/NordAdmin"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/managed-role/",
+        "RoleName": "NordCISO",
+        "RoleId": "AROAX72NBGOMZ5B4RSSMD",
+        "Arn": "arn:aws:iam::549380502425:role/managed-role/NordCISO",
+        "CreateDate": "2019-04-23 21:10:33+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::751810817100:root"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [
+            {
+                "PolicyName": "CISO-S3deny",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Action": "s3:*",
+                            "Resource": "*",
+                            "Effect": "Deny"
+                        }
+                    ]
+                }
+            }
+        ],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "ReadOnlyAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/ReadOnlyAccess"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/managed-role/",
+        "RoleName": "NordDeveloper",
+        "RoleId": "AROAX72NBGOMYLCTHQXZX",
+        "Arn": "arn:aws:iam::549380502425:role/managed-role/NordDeveloper",
+        "CreateDate": "2019-04-23 21:10:33+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::751810817100:root"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "ReadOnlyAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/ReadOnlyAccess"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/managed-role/",
+        "RoleName": "NordReadOnly",
+        "RoleId": "AROAX72NBGOMUQKU5WD2P",
+        "Arn": "arn:aws:iam::549380502425:role/managed-role/NordReadOnly",
+        "CreateDate": "2019-04-23 21:10:33+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::751810817100:root"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "ReadOnlyAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/ReadOnlyAccess"
+            },
+            {
+                "PolicyName": "AWSAccountUsageReportAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AWSAccountUsageReportAccess"
+            },
+            {
+                "PolicyName": "AWSAccountActivityAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AWSAccountActivityAccess"
+            }
+        ],
+        "Tags": []
+    },
+    {
+        "Path": "/managed-role/",
+        "RoleName": "NordSecurityEngineer",
+        "RoleId": "AROAX72NBGOMXQ2XYXUPF",
+        "Arn": "arn:aws:iam::549380502425:role/managed-role/NordSecurityEngineer",
+        "CreateDate": "2019-04-23 21:10:33+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "AWS": "arn:aws:iam::751810817100:root"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "InstanceProfileList": [],
+        "RolePolicyList": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "AmazonInspectorFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonInspectorFullAccess"
+            },
+            {
+                "PolicyName": "AmazonGuardDutyFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonGuardDutyFullAccess"
+            },
+            {
+                "PolicyName": "ReadOnlyAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/ReadOnlyAccess"
+            },
+            {
+                "PolicyName": "AmazonMacieFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AmazonMacieFullAccess"
+            }
+        ],
+        "Tags": []
+    }
+]
