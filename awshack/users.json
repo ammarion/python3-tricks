@@ -5,10 +5,47 @@
         "UserId": "AIDAX72NBGOMSLRRGJKSS",
         "Arn": "arn:aws:iam::549380502425:user/master",
         "CreateDate": "2019-04-14 03:30:35+00:00",
+        "UserPolicyList": [
+            {
+                "PolicyName": "account",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Sid": "VisualEditor0",
+                            "Effect": "Allow",
+                            "Action": "account:*",
+                            "Resource": "*"
+                        }
+                    ]
+                }
+            }
+        ],
         "GroupList": [
             "admin"
         ],
-        "AttachedManagedPolicies": [],
+        "AttachedManagedPolicies": [
+            {
+                "PolicyName": "AlexaForBusinessGatewayExecution",
+                "PolicyArn": "arn:aws:iam::aws:policy/AlexaForBusinessGatewayExecution"
+            },
+            {
+                "PolicyName": "AlexaForBusinessFullAccess",
+                "PolicyArn": "arn:aws:iam::aws:policy/AlexaForBusinessFullAccess"
+            },
+            {
+                "PolicyName": "AlexaForBusinessDeviceSetup",
+                "PolicyArn": "arn:aws:iam::aws:policy/AlexaForBusinessDeviceSetup"
+            },
+            {
+                "PolicyName": "NordAdmin",
+                "PolicyArn": "arn:aws:iam::549380502425:policy/managed-policy/NordAdmin"
+            },
+            {
+                "PolicyName": "NordAcctAdmin",
+                "PolicyArn": "arn:aws:iam::549380502425:policy/managed-policy/NordAcctAdmin"
+            }
+        ],
         "Tags": []
     }
 ]

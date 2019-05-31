@@ -1,6 +1,6 @@
 import boto3
 import json
-session = boto3.Session(profile_name='master', region_name='us-west-2')
+session = boto3.Session(profile_name='master', region_name='us-east-1')
 
 client = session.client('iam')
 # Declare the variables that will store the enumerated information
@@ -56,11 +56,29 @@ with open('./policies.json', 'w+') as f:
 username = client.get_user()['User']['UserName']
 # Define a variable that will hold our user
 current_user = None
+
 # Iterate through the enumerated users
 for user in user_details:
     # See if this user is our user
     if user['UserName'] == username:
         # Set the current_user variable to our user
         current_user = user
-          # We found the user, so we don't need to iterate through the rest of them
+
+        # We found the user, so we don't need to iterate through the rest of them
         break
+# Create an empty list that will hold all the policies related to our user 
+my_policies = []
+# Check if any inline policies are attached to my user
+if current_user.get('UserPolicyList'):
+    # Iterate through the inline policies to pull their documents
+    for policy in current_user['UserPolicyList']:
+        # Add the policy to our list
+        my_policies.append(policy['PolicyDocument'])
+
+# Check if any managed policies are attached to my user
+if current_user.get('AttachedManagedPolicies'):
+    # Iterate through the list of managed policies
+    for managed_policy in user['AttachedManagedPolicies']:
+        policy_arn = managed_policy['PolicyArn']
+
+        # Iterate through the policies stored in policy_details to find this policy
