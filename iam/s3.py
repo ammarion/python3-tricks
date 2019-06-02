@@ -45,13 +45,3 @@ for bucket in bucket_names:
    bucket_object['Size']))
 
 
-
-
-
-
-#!/usr/bin/env python3
-
-import boto3
-session = boto3.Session(profile_name='master', region_name='us-west-2')
-
-iam_client = session.client('iam')
