@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15bb72d8-0eb6-46b9-b2d7-6a864fba90d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../redis/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redis/.idea/redis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redis/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redis/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simpleapp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simpleapp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simpleapp/.idea/simpleapp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simpleapp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simpleapp/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="15bb72d8-0eb6-46b9-b2d7-6a864fba90d9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
